@@ -1,0 +1,446 @@
+/* MAIN SECTION */
+main {
+  width: 100%;
+  height: calc(100vh - 60px);
+  margin-top: 60px;
+/*background-image: url(../img/BG.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.index-main-text {
+  display: flex;
+  flex-direction: column;
+}
+
+.index-main-text-slogan {
+  font-size: 9.6rem;
+  line-height: 0.85;
+  color: #fff;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  border-left: 4px solid var(--site-color-01);
+  border-top-left-radius: 4px;
+  padding-left: 12px;
+}
+
+.index-main-text-title {
+  border-left: 4px solid var(--site-color-01);
+  border-bottom-left-radius: 4px;
+  padding-left: 14px;
+}
+
+/* OUR MISSION SECTION */
+.index-our-mission {
+  width: 100%;
+  padding: 60px 0;
+  background-color: var(--site-color-04);
+}
+
+.index-our-mission-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 60px;
+}
+
+.index-our-mission-img img {
+  display: block;
+  border: 4px solid var(--site-color-01);
+  width: 100%;
+  border-radius: 360px;
+}
+
+.index-our-mission-text p {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  max-width: 64ch;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.index-our-mission-ceo {
+  display: flex;
+  align-content: center;
+  flex-direction: row;
+  column-gap: 8px;
+}
+
+.index-our-mission-ceo-suffix {
+  font-weight: 400;
+}
+
+/* HOW IT WORKS SECTION */
+.index-how-it-works {
+  width: 100%;
+  height: calc(100vh - 60px);
+  padding: 60px 0;
+  background-color: var(--site-color-01);
+}
+
+.index-how-it-works-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.index-how-it-works h2, 
+.index-how-it-works h3 {
+  color: var(--site-color-04);
+  text-align: center;
+}
+
+.index-how-it-works-step-list {
+  display: flex;
+  height: 600px;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 36px;
+}
+
+.index-how-it-works-step-list li {
+  flex-basis: 33.3%;
+}
+
+.index-how-it-works-step-list-1 {
+  padding: 0 20px 0 20px;
+  border-left: 4px solid var(--site-color-04);
+  border-right: 2px solid var(--site-color-04);
+}
+
+.index-how-it-works-step-list-2 {
+  padding: 0 20px 0 20px;
+  border-left: 2px solid var(--site-color-04);
+  border-right: 2px solid var(--site-color-04);
+}
+
+.index-how-it-works-step-list-3 {
+  padding: 0 20px 0 20px;
+  border-left: 2px solid var(--site-color-04);
+  border-right: 4px solid var(--site-color-04);
+}
+
+.index-how-it-works-step-list p {
+  display: block;
+  block-size: 320px;
+  color: var(--site-color-04);
+  font-weight: 600;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.index-how-it-works-step-list img {
+  display: block;
+  margin: 0 auto;
+  border-radius: 180px;
+  width: 180px;
+}
+
+/* SERVICES SECTION */
+.index-services {
+  width: 100%;
+  height: calc(100vh - 60px);
+  padding: 60px 0;
+  background-color: var(--site-color-04);
+}
+
+.index-services-h2-full {
+  text-align: center;
+}
+
+.index-services-h2-short {
+  display: none;
+}
+
+.index-services h3, 
+.index-services h4 {
+  text-align: center;
+  line-height: 1.4;
+}
+
+.index-services-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.index-services-plan {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 36px;
+}
+
+.index-services-plan p {
+  display: block;
+  block-size: 72px;
+  align-content: center;
+  opacity: 0.8;
+}
+
+.index-services-plan li {
+  flex-basis: 33.3%;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 2.0;
+}
+
+.index-services-plan-1 {
+  padding: 0 20px 0 20px;
+  border-left: 4px solid var(--site-color-01);
+  border-right: 2px solid var(--site-color-01);
+}
+
+.index-services-plan-2 {
+  padding: 0 20px 0 20px;
+  border-left: 2px solid var(--site-color-01);
+  border-right: 2px solid var(--site-color-01);
+}
+
+.index-services-plan-3 {
+  padding: 0 20px 0 20px;
+  border-left: 2px solid var(--site-color-01);
+  border-right: 4px solid var(--site-color-01);
+}
+
+.cta-btn-index-services-plan-1,
+.cta-btn-index-services-plan-2,
+.cta-btn-index-services-plan-3 {
+  display: none;
+}
+
+.cta-btn-index-services {
+  margin: 0 auto;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+/* FAQ SECTION */
+.index-faq {
+  width: 100%;
+  padding: 60px 0;
+}
+
+.index-faq-flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.index-faq h2 {
+  padding-bottom: 36px;
+}
+
+.index-faq h5 {
+  padding-bottom: 8px;
+}
+
+.index-faq p {
+  padding-bottom: 24px;
+  opacity: 0.8;
+}
+
+
+
+/* MOBILE VERSION */
+@media only screen and (max-width: 600px) {
+
+  /* MAIN SECTION */
+  
+  .index-main-text-slogan {
+    font-size: 4.8rem;
+    line-height: 0.85;
+    margin-left: 0px;
+    padding-left: 8px;
+  }
+  
+  .index-main-text-title {
+    font-size: 2.4rem;
+    line-height: 1.0;
+    margin-left: 0px;
+    padding-left: 8px;
+  }
+
+  /* OUR MISSION SECTION */
+  .index-our-mission {
+    width: 100%;
+  }
+
+  .index-our-mission-flex {
+    flex-direction: column;
+    row-gap: 20px;
+  }
+
+  .index-our-mission-img {
+    display: block;
+    width: 75%;
+  }
+
+  .index-our-mission-img img {
+    display: block;
+    width: 100%;
+    max-width: 250px;
+    padding: 0;
+    margin: 0 auto;
+  }
+  
+  .index-our-mission-text {
+    max-width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .index-our-mission-text h2 {
+    text-align: center;
+  }
+
+  /* HOW IT WORKS SECTION */
+  .index-how-it-works {
+    width: 100%;
+    height: 100%;
+    padding: 24px 0;
+  }
+
+  .index-how-it-works-step-list {
+    height: 100%;
+    padding-top: 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .index-how-it-works-step-list li {
+    flex-basis: 100%;
+  }
+
+  .index-how-it-works-step-list-1 {
+    padding: 0;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 60px;
+  }
+
+  .index-how-it-works-step-list-2 {
+    padding: 0;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 60px;
+  }
+
+  .index-how-it-works-step-list-3 {
+    padding: 0;
+    border-left: none;
+    border-right: none;
+  }
+
+  .index-how-it-works-step-list p {
+    display: block;
+    block-size: 100%;
+    font-weight: 600;
+  }
+
+  .index-how-it-works-step-list img {
+    display: block;
+    margin: 0 auto;
+    border-radius: 180px;
+    max-height: 80%;
+  }
+
+  /* SERVICES SECTION */
+  .index-services {
+    width: 100%;
+    height: 100%;
+    padding: 24px 0;
+  }
+
+  .index-services-h2-full {
+    display: none;
+  }
+
+  .index-services-h2-short {
+    display: inline;
+    text-align: center;
+    color: var(--site-color-06);
+  }
+
+  .index-services-plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 16px;
+  }
+
+  .index-services-plan p {
+    display: block;
+    block-size: 120px;
+  }
+
+  .index-services-plan li {
+    flex-basis: 100%;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 2.0;
+  }
+
+  .index-services-plan-1 {
+    padding: 0;
+    border-left: none;
+    border-right: none;
+    border-bottom: 4px solid var(--site-color-01);
+  }
+
+  .index-services-plan-2 {
+    padding: 0;
+    padding-top: 24px;
+    border-left: none;
+    border-right: none;
+    border-bottom: 4px solid var(--site-color-01);
+  }
+
+  .index-services-plan-3 {
+    padding: 0;
+    padding-top: 24px;
+    border-left: none;
+    border-right: none;
+    border-bottom: 4px solid var(--site-color-01);
+  }
+
+  .cta-btn-index-services {
+    display: none;
+  }
+
+  .cta-btn-index-services-plan-1,
+  .cta-btn-index-services-plan-2,
+  .cta-btn-index-services-plan-3 {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 16px;
+    margin-bottom: 24px;
+  }
+
+  .index-services-note {
+    padding-top: 24px;
+  }
+
+  /* FAQ SECTION */
+  .index-faq {
+    padding-top: 24px;
+    padding-bottom: 0;
+  }
+
+  .index-faq h2 {
+    padding-bottom: 24px;
+    margin: 0 auto;
+  }
+
+}
