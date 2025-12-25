@@ -3,10 +3,10 @@ main {
   width: 100%;
   height: calc(100vh - 60px);
   margin-top: 60px;
-/*background-image: url(../img/BG.png);
+  background-image: url(../img/BG.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;*/
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,7 +93,7 @@ main {
 
 .index-how-it-works h2, 
 .index-how-it-works h3 {
-  color: var(--site-color-04);
+  color: var(--site-color-06);
   text-align: center;
 }
 
@@ -130,8 +130,8 @@ main {
 .index-how-it-works-step-list p {
   display: block;
   block-size: 320px;
-  color: var(--site-color-04);
-  font-weight: 600;
+  color: var(--site-color-06);
+  font-weight: 400;
   padding-top: 16px;
   padding-bottom: 16px;
 }
@@ -143,7 +143,7 @@ main {
   width: 180px;
 }
 
-/* SERVICES SECTION */
+/* OUR SERVICES SECTION */
 .index-services {
   width: 100%;
   height: calc(100vh - 60px);
@@ -346,7 +346,6 @@ main {
   .index-how-it-works-step-list p {
     display: block;
     block-size: 100%;
-    font-weight: 600;
   }
 
   .index-how-it-works-step-list img {
@@ -382,7 +381,8 @@ main {
 
   .index-services-plan p {
     display: block;
-    block-size: 120px;
+    justify-self: center;
+    block-size: 100px;
   }
 
   .index-services-plan li {
@@ -413,6 +413,13 @@ main {
     border-left: none;
     border-right: none;
     border-bottom: 4px solid var(--site-color-01);
+  }
+
+  .index-services-plan-1-items,
+  .index-services-plan-2-items,
+  .index-services-plan-3-items {
+    display: block;
+    justify-self: center;
   }
 
   .cta-btn-index-services {
