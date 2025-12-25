@@ -3,7 +3,7 @@ main {
   width: 100%;
   height: calc(100vh - 60px);
   margin-top: 60px;
-  background-image: url(../img/BG.png);
+  background-image: url(../img/bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
