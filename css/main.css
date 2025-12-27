@@ -1,15 +1,17 @@
+/* FONT IMPORT */
 @font-face {
   font-family: Montserrat;
   src: url(../fonts/Montserrat-VariableFont_wght.ttf);
 }
 
 html {
+  font-size: 62.5%;
   scroll-behavior: smooth;
   scroll-padding-top: 60px;
 }
 
+/* COLOR VARIABLES */
 :root {
-  font-size: 62.5%;
   --site-color-01: #009900;
   --site-color-02: #00cc00;
   --site-color-03: #00ff00;
@@ -18,20 +20,24 @@ html {
   --site-color-06: #ffffff;
 }
 
+/* BACKGROUND STYLE */
 body {
   background-color: var(--site-color-05);
 }
 
+/* MAIN WRAPPER */
 .wrapper-main {
   width: 1200px;
   margin: 0 auto;
 }
 
+/* LINK STYLES */
 a {
   cursor: pointer;
   color: #fff;
 }
 
+/* FONT STYLES */
 h1 {
   font-size: 4.8rem;
   color: #fff;
@@ -86,7 +92,7 @@ li {
   font-weight: 400;
 }
 
-/* BOOK A CALL CTA Button */
+/* BOOK A CALL CTA BUTTON */
 .cta-btn {
   width: 136px;
   height: 36px;
@@ -111,7 +117,7 @@ li {
   background-color: var(--site-color-03);
 }
 
-/* HEADER SECTION */
+/* HEADER MAIN */
 .header-main {
   position: fixed;
   top: 0;
@@ -177,7 +183,8 @@ li {
   border-radius: 4px;
 }
 
-/* Social Media Icons 
+/* 
+Social Media Icons 
 .header-main-sm {
   width: fit-content;
   height: 100%;
@@ -209,7 +216,7 @@ li {
   margin-right: 12px;
 }
 
-/* FOOTER SECTION MAIN */
+/* FOOTER MAIN */
 .footer-main {
   width: 100%;
   padding: 60px 0 60px;
@@ -298,7 +305,7 @@ li {
 /* <600px, 601px, 768px, 992px, 1200px */
 
 /* MOBILE PHONES (PORTRAIT) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 600px) or (orientation: landscape) {
   /*
   *, *::before, *::after {
     box-sizing: border-box;
@@ -387,7 +394,7 @@ li {
     font-size: 1.6rem;
   }
   
-  /* WRAPPER MAIN*/
+  /* WRAPPER MAIN */
   .wrapper-main {
     width: 80%;
   }
@@ -486,7 +493,7 @@ li {
 
 
 /* LARGER PHONES OR SMALL TABLETS (PORTRAIT) */
-@media only screen and (min-width: 601px) and (max-width: 768px) {
+@media only screen and (min-width: 601px) and (max-width: 768px) and (orientation: portrait){
   
   /* BURGER MENU BUTTON */
   .burger-menu-btn {
