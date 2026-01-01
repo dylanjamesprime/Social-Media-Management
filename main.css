@@ -312,6 +312,7 @@ Social Media Icons
   }
   */
 
+  /* BURGER MENU BUTTON */
   .burger-menu-btn {
     display: block;
     position: absolute;
@@ -491,6 +492,181 @@ Social Media Icons
 }
 
 
+/* MOBILE PHONES (LANDSCAPE) */
+@media only screen and (max-height: 500px) and (orientation: landscape) {
+
+  /* BURGER MENU BUTTON */
+  .burger-menu-btn {
+    display: block;
+    position: absolute;
+    margin-left: 8px;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/Icons/burger-menu.png), url(../img/Icons/burger-menu-close.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center, center left 50px;
+  }
+
+  .burger-menu {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 900;
+    background-color: #1e1e1e;
+  }
+
+  .burger-menu ul {
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    overflow-y: scroll;
+  }
+
+  .burger-menu ul li {
+    flex-basis: 100%;
+    border-top: 2px solid #000;
+  }
+
+  .burger-menu ul li:last-child {
+    border-bottom: 2px solid #000;
+  }
+
+  .burger-menu ul li a {
+    display: block;
+    height: 100%;
+    font-size: 3rem;
+    padding: 30px;
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  .burger-menu ul li a:hover,
+  .burger-menu ul li a:active {
+    background-color: #009900;
+  }
+
+  /* FONT SIZES */
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  h2 {
+    font-size: 3.2rem;
+  }
+
+  h3 {
+    font-size: 2.4rem;
+  }
+
+  h4 {
+    font-size: 2.0rem;
+  }
+
+  h5 {
+    font-size: 2.0rem;
+  }
+
+  p {
+    font-size: 1.6rem;
+  }
+
+  li {
+    font-size: 1.6rem;
+  }
+  
+  /* WRAPPER MAIN */
+  .wrapper-main {
+    width: 80%;
+  }
+
+  /* HEADER MAIN */
+  .header-main {
+    position: fixed;
+    top: 0;
+  }
+
+  .brand-name-full {
+    margin-left: 42px;
+  }
+
+  .brand-name-short {
+    display: none;
+  }
+
+  .header-main-nav {
+    display: none;
+  }
+
+  /* FOOTER MAIN */
+  .footer-main {
+    padding: 24px 0 60px;
+  }
+
+  .footer-main-testimonials-h2 {
+    display: inline;
+    text-align: center;
+  }
+
+  .footer-testimony {
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 48px;
+  }
+
+  .footer-testimony p {
+    padding: 0;
+    padding-top: 12px;
+  }
+
+  .cta-btn-footer-main {
+    margin-top: 24px;
+    margin-bottom: 32px;
+  }
+
+  .footer-sitemap {
+    flex-wrap: wrap;
+  }
+
+  .footer-sitemap-nav {
+    border-left: none;
+    padding-left: 0px;
+  }
+
+  .footer-sitemap ul:nth-child(1),
+  .footer-sitemap ul:nth-child(2) {
+    flex-basis: 100%;
+    text-align: center;
+    padding-bottom: 24px;
+  }
+
+  .footer-sitemap ul:nth-child(1) {
+    display: none;
+  }
+
+  .footer-sitemap p {
+    text-transform: none;
+  }
+
+  .footer-sitemap ul:nth-child(3) {
+    flex-grow: 1;
+  }
+
+  .footer-sitemap ul:nth-child(3) li {
+    float: none;
+    text-align: center;
+  }
+
+}
+
+
 
 /* LARGER PHONES OR SMALL TABLETS (PORTRAIT) */
 @media only screen and (min-width: 601px) and (max-width: 768px) and (orientation: portrait){
@@ -588,7 +764,6 @@ Social Media Icons
     position: fixed;
     top: 0;
   }
-
   
   .brand-name-full {
     margin-left: 42px;
@@ -668,9 +843,169 @@ Social Media Icons
 /* TABLETS (LANDSCAPE) OR SMALL LAPTOPS */
 @media only screen and (min-width: 769px) and (max-width: 992px) {
   
+  /* BURGER MENU BUTTON */
+  .burger-menu-btn {
+    display: block;
+    position: absolute;
+    margin-left: 8px;
+    width: 50px;
+    height: 50px;
+    background-image: url(../img/Icons/burger-menu.png), url(../img/Icons/burger-menu-close.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center, center left 50px;
+  }
+
+  .burger-menu {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    z-index: 900;
+    background-color: #1e1e1e;
+  }
+
+  .burger-menu ul {
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    overflow-y: scroll;
+  }
+
+  .burger-menu ul li {
+    flex-basis: 100%;
+    border-top: 2px solid #000;
+  }
+
+  .burger-menu ul li:last-child {
+    border-bottom: 2px solid #000;
+  }
+
+  .burger-menu ul li a {
+    display: block;
+    height: 100%;
+    font-size: 3rem;
+    padding: 30px;
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  .burger-menu ul li a:hover,
+  .burger-menu ul li a:active {
+    background-color: #009900;
+  }
+
+  /* FONT SIZES */
+  h1 {
+    font-size: 3.6rem;
+  }
+
+  h2 {
+    font-size: 3.2rem;
+  }
+
+  h3 {
+    font-size: 2.4rem;
+  }
+
+  h4 {
+    font-size: 2.0rem;
+  }
+
+  h5 {
+    font-size: 2.0rem;
+  }
+
+  p {
+    font-size: 1.6rem;
+  }
+
+  li {
+    font-size: 1.6rem;
+  }
+
   /* WRAPPER MAIN*/
   .wrapper-main {
     width: 80%;
+  }
+
+  /* HEADER MAIN */
+  .header-main {
+    position: fixed;
+    top: 0;
+  }
+  
+  .brand-name-full {
+    margin-left: 42px;
+  }
+
+  .header-main-nav {
+    display: none;
+  }
+
+  /* FOOTER MAIN */
+  .footer-main {
+    padding: 24px 0 60px;
+  }
+
+  .footer-main-testimonials-h2 {
+    display: inline;
+    text-align: center;
+  }
+
+  .footer-testimony {
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 48px;
+  }
+
+  .footer-testimony p {
+    padding: 0;
+    padding-top: 12px;
+  }
+
+  .cta-btn-footer-main {
+    margin-top: 24px;
+    margin-bottom: 32px;
+  }
+
+  .footer-sitemap {
+    flex-wrap: wrap;
+  }
+
+  .footer-sitemap-nav {
+    border-left: none;
+    padding-left: 0px;
+  }
+
+  .footer-sitemap ul:nth-child(1),
+  .footer-sitemap ul:nth-child(2) {
+    flex-basis: 100%;
+    text-align: center;
+    padding-bottom: 24px;
+  }
+
+  .footer-sitemap ul:nth-child(1) {
+    display: none;
+  }
+
+  .footer-sitemap p {
+    text-transform: none;
+  }
+
+  .footer-sitemap ul:nth-child(3) {
+    flex-grow: 1;
+  }
+
+  .footer-sitemap ul:nth-child(3) li {
+    float: none;
+    text-align: center;
   }
 
 }
@@ -683,6 +1018,11 @@ Social Media Icons
   /* WRAPPER MAIN*/
   .wrapper-main {
     width: 80%;
+  }
+
+  /*FOOTER MAIN*/
+  .footer-sitemap ul:nth-child(2) {
+    flex-basis: 55%;
   }
 
 }

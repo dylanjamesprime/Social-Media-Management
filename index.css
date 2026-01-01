@@ -52,14 +52,26 @@ main {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  column-gap: 60px;
+}
+
+.index-our-mission-img {
+  margin-left: auto;
+  background-color: aquamarine;
 }
 
 .index-our-mission-img img {
   display: block;
   border: 4px solid var(--site-color-01);
-  width: 100%;
+  width: 80%;
   border-radius: 360px;
+  margin: 0 auto;
+}
+
+.index-our-mission-text {
+  display: block;
+  margin-left: auto;
+  width: 600px;
+  background-color: tomato;
 }
 
 .index-our-mission-text p {
@@ -132,14 +144,18 @@ main {
 }
 
 .index-how-it-works p {
-  display: block;
-  text-align: center;
-  width: 80%;
+  display: flex;
+  text-align: left;
+  width: 100%;
   margin: 0 auto;
   block-size: 250px;
   color: var(--site-color-06);
   font-weight: 400;
   padding: 16px 0;
+}
+
+.index-how-it-works-p2 {
+  justify-content: center;
 }
 
 .index-how-it-works img {
@@ -198,23 +214,24 @@ main {
   line-height: 1.8;
 }
 
-.index-services-plan-1 {
+.index-services-plan-1,
+.index-services-plan-2,
+.index-services-plan-3 {
   width: 33.33%;
   padding: 0 20px 0 20px;
+}
+
+.index-services-plan-1 {
   border-left: 4px solid var(--site-color-01);
   border-right: 2px solid var(--site-color-01);
 }
 
 .index-services-plan-2 {
-  width: 33.33%;
-  padding: 0 20px 0 20px;
   border-left: 2px solid var(--site-color-01);
   border-right: 2px solid var(--site-color-01);
 }
 
 .index-services-plan-3 {
-  width: 33.33%;
-  padding: 0 20px 0 20px;
   border-left: 2px solid var(--site-color-01);
   border-right: 4px solid var(--site-color-01);
 }
@@ -290,7 +307,6 @@ main {
     font-weight: 900;
     margin-left: 0px;
     padding-left: 8px;
-    z-index: 110;
   }
   
   .index-main-text-title {
@@ -315,6 +331,7 @@ main {
   .index-our-mission-img {
     display: block;
     width: 75%;
+    margin: 0 auto;
   }
 
   .index-our-mission-img img {
@@ -428,7 +445,9 @@ main {
     line-height: 2.0;
   }
 
-  .index-services-plan-1 {
+  .index-services-plan-1,
+  .index-services-plan-2,
+  .index-services-plan-3 {
     width: 100%;
     padding: 0px;
     border-left: none;
@@ -436,31 +455,9 @@ main {
     border-bottom: 4px solid var(--site-color-01);
   }
 
-  .index-services-plan-2 {
-    width: 100%;
-    padding: 0;
-    padding-top: 24px;
-    border-left: none;
-    border-right: none;
-    border-bottom: 4px solid var(--site-color-01);
-  }
-
+  .index-services-plan-2,
   .index-services-plan-3 {
-    width: 100%;
-    padding: 0;
     padding-top: 24px;
-    border-left: none;
-    border-right: none;
-    border-bottom: 4px solid var(--site-color-01);
-  }
-
-  .index-services-plan-1-ul,
-  .index-services-plan-2-ul,
-  .index-services-plan-3-ul {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-self: center;
   }
 
   .index-services-price {
@@ -470,6 +467,217 @@ main {
     font-size: 2.0rem;
     font-weight: 600;
     color: var(--site-color-06);
+  }
+
+  .cta-btn-index-services {
+    display: none;
+  }
+
+  .cta-btn-index-services-plan-1,
+  .cta-btn-index-services-plan-2,
+  .cta-btn-index-services-plan-3 {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 16px;
+    margin-bottom: 24px;
+  }
+
+  .index-services-note {
+    padding-top: 24px;
+  }
+
+  /* FAQ SECTION */
+  .index-faq {
+    padding: 30px 0;
+  }
+
+  .index-faq h2 {
+    padding-bottom: 24px;
+    margin: 0 auto;
+  }
+
+}
+
+
+
+/* MOBILE PHONES (LANDSCAPE) */
+@media only screen and (max-height: 500px) and (orientation: landscape) {
+
+  /* MAIN SECTION */
+  .index-main-text {
+    margin-bottom: 0px;
+  }
+
+  .index-main-text-slogan {
+    display: inline;
+    font-size: 4.8rem;
+    margin-left: 0px;
+    padding-left: 8px;
+  }
+
+  .index-main-text-slogan-tall {
+    display: none;
+  }
+  
+  .index-main-text-title {
+    font-size: 2.4rem;
+    margin-left: 0px;
+    padding-left: 8px;
+  }
+
+  /* OUR MISSION SECTION */
+  .index-our-mission {
+    height: 100%;
+    padding: 30px 0;
+  }
+
+  .index-our-mission-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 0px;
+  }
+
+  .index-our-mission-img {
+    display: block;
+    width: 50%;
+  }
+
+  .index-our-mission-img img {
+    display: block;
+    width: 100%;
+    max-width: 250px;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .index-our-mission-text {
+    max-width: 50%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  /* HOW IT WORKS SECTION */
+  .index-how-it-works {
+    width: 100%;
+    height: 100%;
+    padding: 30px 0;
+  }
+
+  .index-how-it-works ol {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .index-how-it-works li {
+    flex-basis: 100%;
+  }
+
+  .index-how-it-works-step-list-1 {
+    padding: 0;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 60px;
+    width: 100%;
+  }
+  
+  .index-how-it-works-step-list-2 {
+    padding: 0;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 60px;
+    width: 100%;
+  }
+
+  .index-how-it-works-step-list-3 {
+    padding: 0;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+  }
+
+  .index-how-it-works p {
+    block-size: 100%;
+  }
+
+  .index-how-it-works img {
+    max-height: 80%;
+  }
+
+  /* OUR SERVICES SECTION */
+  .index-services {
+    width: 100%;
+    height: 100%;
+    padding: 30px 0;
+  }
+
+  .index-services-h2-full {
+    display: none;
+  }
+
+  .index-services-h2-short {
+    display: inline;
+    text-align: center;
+    color: var(--site-color-06);
+  }
+
+  .index-services-plan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 16px;
+    flex-basis: 100%;
+  }
+
+  .index-services-plan-description {
+    display: none;
+  }
+
+  .index-services-plan ul {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-self: center;
+    padding-left: 10%;
+    width: 80%;
+    max-height: 200px;
+  }
+
+  .index-services-plan li {
+    display: flex;
+    align-self: start;
+    justify-content: center;
+    flex-basis: 100%;
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 2.0;
+  }
+
+  .index-services-plan-1,
+  .index-services-plan-2,
+  .index-services-plan-3 {
+    width: 100%;
+    padding: 0px;
+    border-left: none;
+    border-right: none;
+    border-bottom: 4px solid var(--site-color-01);
+  }
+
+  .index-services-plan-2,
+  .index-services-plan-3 {
+    padding-top: 24px;
+  }
+
+  .index-services-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.0rem;
+    font-weight: 600;
+    color: var(--site-color-06);
+    padding-top: 0px;
   }
 
   .cta-btn-index-services {
@@ -524,7 +732,6 @@ main {
     line-height: 0.85;
     margin-left: 0px;
     padding-left: 8px;
-    z-index: 110;
   }
   
   .index-main-text-title {
@@ -547,6 +754,7 @@ main {
   .index-our-mission-img {
     display: block;
     width: 75%;
+    margin: 0 auto;
   }
 
   .index-our-mission-img img {
@@ -665,23 +873,10 @@ main {
 
   .index-services-plan-1 {
     border-top: 4px solid var(--site-color-01);
-    width: 100%;
-    padding: 0px;
-    padding-top: 24px;
-    border-left: none;
-    border-right: none;
-    border-bottom: 4px solid var(--site-color-01);
   }
 
-  .index-services-plan-2 {
-    width: 100%;
-    padding: 0;
-    padding-top: 24px;
-    border-left: none;
-    border-right: none;
-    border-bottom: 4px solid var(--site-color-01);
-  }
-
+  .index-services-plan-1,
+  .index-services-plan-2,
   .index-services-plan-3 {
     width: 100%;
     padding: 0;
@@ -689,15 +884,6 @@ main {
     border-left: none;
     border-right: none;
     border-bottom: 4px solid var(--site-color-01);
-  }
-
-  .index-services-plan-1-ul,
-  .index-services-plan-2-ul,
-  .index-services-plan-3-ul {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-self: center;
   }
 
   .index-services-price {
@@ -734,6 +920,131 @@ main {
   .index-faq h2 {
     padding-bottom: 24px;
     margin: 0 auto;
+  }
+
+}
+
+
+
+/* TABLETS (LANDSCAPE) OR SMALL LAPTOPS */
+@media only screen and (min-width: 769px) and (max-width: 992px) {
+
+  /* MAIN SECTION */
+  .index-main-text {
+    margin-bottom: 20%;
+  }
+
+  .index-main-text-slogan {
+    display: inline;
+    font-size: 7.2rem;
+    padding-left: 12px;
+  }
+
+  .index-main-text-slogan-tall {
+    display: none;
+  }
+
+  /* OUR MISSION SECTION */
+  .index-our-mission-flex {
+    flex-direction: row;
+    column-gap: 0px;
+  }
+
+  .index-our-mission-img {
+    width: 50%;
+  }
+
+  .index-our-mission-img img {
+    max-width: 250px;
+    padding: 0;
+    margin: 0 auto;
+  }
+
+  .index-our-mission-text {
+    max-width: 50%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  /* HOW IT WORKS SECTION */
+  .index-how-it-works {
+    height: 100%;
+  }
+
+  .index-how-it-works h3 {
+    display: flex;
+    justify-content: center;
+    height: 84px;
+  }
+
+  .index-how-it-works p {
+    display: flex;
+    text-align: left;
+    width: 100%;
+    margin: 0 auto;
+    block-size: 250px;
+  }
+
+  .index-how-it-works img {
+    width: 150px;
+  }
+
+  /* OUR SERVICES SECTION */
+  .index-services {
+    height: 100%;
+  }
+
+  .index-services-plan-description {
+    block-size: 150px;
+  }
+
+}
+
+
+
+/* STANDARD LAPTOPS AND DESKTOPS */
+@media only screen and (min-width: 993px) and (max-width: 1200px) {
+
+  /* OUR MISSION SECTION */
+  .index-our-mission-flex {
+    flex-direction: row;
+    column-gap: 0px;
+  }
+
+  .index-our-mission-img {
+    width: 50%;
+  }
+
+  .index-our-mission-img img {
+    max-width: 250px;
+  }
+
+  .index-our-mission-text {
+    max-width: 50%;
+  }
+
+  /* HOW IT WORKS SECTION */
+  .index-how-it-works {
+    height: 100%;
+  }
+
+  .index-how-it-works h3 {
+    display: flex;
+    justify-content: center;
+    height: 84px;
+  }
+
+  .index-how-it-works img {
+    width: 150px;
+  }
+
+  /* OUR SERVICES SECTION */
+  .index-services {
+    height: 100%;
+  }
+
+  .index-services-plan-description {
+    block-size: 150px;
   }
 
 }
