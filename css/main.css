@@ -34,78 +34,78 @@ body {
 /* LINK STYLES */
 a {
   cursor: pointer;
-  color: #fff;
+  color: var(--site-color-06);
 }
 
 /* FONT STYLES */
 h1 {
   font-size: 4.8rem;
-  color: #fff;
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-weight: 800;
+  color: var(--site-color-06);
 }
 
 h2 {
   font-size: 3.6rem;
-  color: #fff;
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-weight: 700;
+  color: var(--site-color-06);
 }
 
 h3 {
   font-size: 2.4rem;
-  line-height: 1.15;
-  color: #fff;
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-weight: 600;
+  line-height: 1.15;
+  color: var(--site-color-06);
 }
 
 h4 {
   font-size: 2.0rem;
-  line-height: 1.15;
-  color: #fff;
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-weight: 600;
+  line-height: 1.15;
+  color: var(--site-color-06);
 }
 
 h5 {
   font-size: 2.0rem;
-  line-height: 1.15;
-  color: #fff;
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-weight: 500;
+  line-height: 1.15;
+  color: var(--site-color-06);
 }
 
 p {
   font-size: 1.6rem;
-  line-height: 1.5;
-  color: #fff;
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-weight: 400;
+  line-height: 1.5;
+  color: var(--site-color-06);
 }
 
 li {
   font-size: 1.6rem;
-  line-height: 1.5;
-  color: #fff;
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-weight: 400;
+  line-height: 1.5;
+  color: var(--site-color-06);
 }
 
 /* BOOK A CALL CTA BUTTON */
 .cta-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 136px;
   height: 36px;
   background-color: var(--site-color-01);
   font-size: 1.6rem;
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-weight: 700;
-  color: #ffffff;
+  color: var(--site-color-06);
   border: none;
   border-radius: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   cursor: pointer;
 }
 
@@ -134,7 +134,7 @@ li {
   font-size: 2.4rem;
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-weight: 700;
-  color: #fff;
+  color: var(--site-color-06);
   display: flex;
   align-items: center;
   padding-left: 24px;
@@ -151,7 +151,7 @@ li {
   font-size: 1.6rem;
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-weight: 500;
-  color: #fff;
+  color: var(--site-color-06);
   padding-left: 10px;
   padding-right: 10px;
   display: flex;
@@ -367,10 +367,6 @@ Social Media Icons
   }
 
   /* FONT SIZES */
-  h1 {
-    font-size: 2.4rem;
-  }
-
   h2 {
     font-size: 3.2rem;
   }
@@ -546,14 +542,10 @@ Social Media Icons
 
   .burger-menu ul li a:hover,
   .burger-menu ul li a:active {
-    background-color: #009900;
+    background-color: var(--site-color-01);
   }
 
   /* FONT SIZES */
-  h1 {
-    font-size: 2.4rem;
-  }
-
   h2 {
     font-size: 3.2rem;
   }
@@ -603,7 +595,7 @@ Social Media Icons
 
   /* FOOTER MAIN */
   .footer-main {
-    padding: 24px 0 60px;
+    padding: 30px 0 60px;
   }
 
   .footer-main-testimonials-h2 {
@@ -729,7 +721,7 @@ Social Media Icons
   h1 {
     font-size: 3.6rem;
   }
-
+  
   h2 {
     font-size: 3.2rem;
   }
