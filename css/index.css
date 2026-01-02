@@ -361,27 +361,17 @@ main {
     flex-basis: 100%;
   }
 
-  .index-how-it-works-step-list-1 {
-    padding: 0;
+  .index-how-it-works-step-list-1,
+  .index-how-it-works-step-list-2,
+  .index-how-it-works-step-list-3 {
+    padding: 0 0 60px 0;
     border-left: none;
     border-right: none;
-    padding-bottom: 60px;
-    width: 100%;
-  }
-  
-  .index-how-it-works-step-list-2 {
-    padding: 0;
-    border-left: none;
-    border-right: none;
-    padding-bottom: 60px;
     width: 100%;
   }
 
   .index-how-it-works-step-list-3 {
     padding: 0;
-    border-left: none;
-    border-right: none;
-    width: 100%;
   }
 
   .index-how-it-works p {
@@ -432,9 +422,8 @@ main {
 
   .index-services-plan li {
     flex-basis: 100%;
-    font-weight: 500;
     font-size: 1.6rem;
-    line-height: 2.0;
+    line-height: 1.8;
   }
 
   .index-services-plan-1,
@@ -611,7 +600,6 @@ main {
     justify-content: center;
     flex-basis: 100%;
     font-size: 1.6rem;
-    line-height: 2.0;
   }
 
   .index-services-plan-1,
