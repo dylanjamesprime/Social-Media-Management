@@ -32,7 +32,7 @@ body:after {
   height: 0;
   overflow: hidden;
   z-index: -100;
-  content: url(../img/Icons/instagram-color.png) url(../img/Icons/facebook-color.png) url(../img/Icons/x-logo-white.png);
+  content: url(../img/Icons/instagram-color.png) url(../img/Icons/facebook-color.png) url(../img/Icons/x-logo-white.png) url(../img/Icons/TikTok-color.png) url(../img/Icons/YouTube-color.png);
 }
 
 /* MAIN WRAPPER */
