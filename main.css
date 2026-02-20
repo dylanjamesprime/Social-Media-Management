@@ -482,27 +482,27 @@ li {
   }
 
   h2 {
-    font-size: 3.2rem;
-  }
-
-  h3 {
     font-size: 2.4rem;
   }
 
-  h4 {
+  h3 {
     font-size: 2.0rem;
+  }
+
+  h4 {
+    font-size: 1.8rem;
   }
 
   h5 {
-    font-size: 2.0rem;
+    font-size: 1.8rem;
   }
 
   p {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
 
   li {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
   }
   
   /* WRAPPER MAIN */
