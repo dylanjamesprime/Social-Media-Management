@@ -32,7 +32,8 @@ body:after {
   height: 0;
   overflow: hidden;
   z-index: -100;
-  content: url(../img/Icons/instagram-color.png) url(../img/Icons/facebook-color.png) url(../img/Icons/x-logo-white.png) url(../img/Icons/TikTok-color.png) url(../img/Icons/YouTube-color.png);
+  content: url(../img/Icons/instagram-color.png) url(../img/Icons/facebook-color.png) url(../img/Icons/x-logo-white.png);
+  content: url(../img/Icons/TikTok-color.png) url(../img/Icons/YouTube-color.png);
 }
 
 /* MAIN WRAPPER */
@@ -52,6 +53,7 @@ h1 {
   font-size: 4.8rem;
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   font-weight: 800;
+  line-height: 1.0;
   color: var(--site-color-06);
 }
 
@@ -475,6 +477,10 @@ li {
   }
 
   /* FONT SIZES */
+  h1 {
+    font-size: 2.4rem;
+  }
+
   h2 {
     font-size: 3.2rem;
   }
@@ -1024,7 +1030,7 @@ li {
 
 
 
-/* STANDARD LAPTOPS AND DESKTOPS */
+/* STANDARD LAPTOPS */
 @media only screen and (min-width: 993px) and (max-width: 1200px) {
   
   /* BURGER MENU BUTTON */
